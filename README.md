@@ -6,7 +6,7 @@ The routing and templating are built in <b>ReactJS</b>
 
 Each page is a component on its own with other smaller components also in play.
 
-This site is powered by <b>NodeJS</b>\
+This site is powered by <b>NodeJS</b> \
 
 You can run the site in development mode by typing in the command 
 ```
