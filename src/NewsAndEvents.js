@@ -1,5 +1,5 @@
 import React from 'react';
-import './NewsAndEvents.css';
+// import './NewsAndEvents.css';
 
 const NewsAndEvents = () => {
  return (

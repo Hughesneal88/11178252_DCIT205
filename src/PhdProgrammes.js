@@ -22,5 +22,5 @@ const PhDProgrammes = () => {
     </div>
  );
 };
-
+// eslint-disable-next-line
 export default PhDProgrammes;
