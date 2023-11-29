@@ -1,7 +1,7 @@
 import React from 'react';
 // import './About.css';
 
-function About() {
+const About = () => {
  return (
     <div className="about-section">
       <h1>About University of Ghana Computer Science Department</h1>

@@ -1,8 +1,7 @@
 import './App.css';
 
-function MainContent() {
+const MainContent = () => {
   return (
-    <div class="jumbotron">
       <div class="container">
         <div class="row">
           <div class="course1">
@@ -90,7 +89,7 @@ function MainContent() {
       </div>
       </div>
     </div>
-    </div>
+ 
 )};
 
 

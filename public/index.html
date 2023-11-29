@@ -10,19 +10,126 @@
     content="Web site for computer science department"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/comScience_logo.png" />
-    
+    <link rel="stylesheet" href="%PUBLIC_URL%/App.css"
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     
     <title>Computer Science Department</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header id="header">
+      <div class="header-top">
+          <div class="container">
+              <div class="row text-center"></div>
+          </div>
+      </div>
+      <div class="container main-menu" >
+          <div class="row align-items-center justify-content-between d-flex">
+              <div id="logo"><a href="/"><img src='public/comScience_logo.png' alt="Department logo" title="Computer Science Department"
+                          /></a></div>
+              <nav id="nav-menu-container">
+                  <ul class="nav nav-tabs">
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/about">About</a></li>
+                      <li><a href="/faculty">Faculty</a></li>
+                      <li><a href="/research-labs">Research Groups</a></li>
+                      <li><a href="/NewsAndEvents">News</a></li>
+                      <li><a href="/Contact">Contact Us</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="course1">
+          <a class="short-courses" href="/short-courses" >
+        <div class="title1">
+          <h4>Short Courses</h4>
+        </div>
+    <div>
+      <p class="para1-shrt-course">Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public</p>
+    </div>
+    <div>
+      <b class="bold1-shrt-course">Read More</b>
+    </div> 
+  </a>
+  </div>
+
+  <div class="course2" >
+    <a class="Undergraduate-programmes" href="/Undergraduate-programmes" >
+      <div>
+    <h4 class="title2">Undergraduate courses</h4>
+    </div>
+    <div>
+    <p class="para2-under-program">Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.</p>
+    </div>
+    <div>
+      <b class="bold2-under-program">Read More</b>
+    </div>
+  </a>
+  </div>
+
+  <div class="course3" >
+    <a class="MPhil-and-Msc-programmes" href="/MPhil-and-Msc-programmes" >
+      <div class="title3">
+        <h4>MPhil and Msc courses</h4>
+      </div>
+      <div>
+        <p class="para3-MPhil">Embrace world class graduate education with unique blend of cutting-edge research and industry experience.</p>
+      </div>
+      <div>
+        <b class="bold3-MPhil">Read More</b>
+      </div> 
+    </a>  
+  </div>
+  <div class="CS-programs" >
+    <a class="CS-events" href="/departmental-events" >
+      <div class="event">
+        <h4>Departmental event</h4>
+      </div>
+      <div>
+        <p class="para-event">Programmes, seminars and events organized by the department.</p>
+      </div>
+      <div>
+        <b class="bold-event">View upcoming and ongoing events.</b>
+      </div> 
+    </a>  
+  </div>
+  
+  <div class="course4">
+    <a class="PhD-programmes" href="/PhD-programmes" >
+      <div class="title4">
+        <h4>PhD courses</h4>
+      </div>
+       <div class="para4-PhD">
+        <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.</p>
+       </div>
+       <div>
+        <b class="bold4-PhD">
+          Read More
+        </b>
+       </div>
+    </a>
+    </div>
+    <div class="career-dev" >
+      <a class="career-development" href="/career-development">
+        <div class="career">
+          <h4>Career development</h4>
+        </div>
+        <div>
+          <p class="para-dev">Leadership skills,critical thinking and problem solving that helps build the future </p>
+        </div>
+        <div>
+          <b class="bold-dev">Find out more.</b>
+        </div> 
+      </a>  
+    </div>
+    </div>
+  </div>
+
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
     
     <div id="root"></div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
   </body>
 </html>
